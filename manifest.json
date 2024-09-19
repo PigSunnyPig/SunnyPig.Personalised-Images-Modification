@@ -57,10 +57,10 @@
 		{
 			"name": "(ii) 武器图片 -- 优化「ICA19 金色舞者」",
 			"image": "framework content/Items_And_Weapons_2.png",
-			"tooltip": "更改「自由职业者」中 ICA19 金色舞者的图片，让其重回颜值巅峰。",
+			"tooltip": "修改「自由职业者」中 ICA19 金色舞者的图片，让其重回颜值巅峰。",
 			"type": "checkbox",
 			"blobsFolders": ["mod content/Items_And_Weapons/Goldballer/blobs"],
-			"contentFolders": ["mod content/Items_And_Weapons/Goldballer"],
+			"contentFolders": ["mod content/Items_And_Weapons/Goldballer/Texture"],
 			"enabledByDefault": true
 		},
 		{
@@ -72,9 +72,9 @@
 		},
 		{
 			"group": "(1) 挑战 Challenges",
-			"name": "默认版本",
+			"name": "修改版本",
 			"image": "framework content/Challenges_2.png",
-			"tooltip": "优化《杀手：暗杀世界》里的挑战图片。",
+			"tooltip": "修改《杀手：暗杀世界》里的挑战图片。",
 			"type": "select",
 			"blobsFolders": ["mod content/Challenges/blobs"],
 			"enabledByDefault": true
@@ -88,9 +88,9 @@
 		},
 		{
 			"group": "(2) 装备与武器 Items & Weapons",
-			"name": "默认版本",
+			"name": "修改版本",
 			"image": "framework content/Items_And_Weapons_2.png",
-			"tooltip": "优化《杀手：暗杀世界》里的装备及武器图片。",
+			"tooltip": "修改《杀手：暗杀世界》里的装备及武器图片。",
 			"type": "select",
 			"blobsFolders": ["mod content/Items_And_Weapons/blobs"],
 			"enabledByDefault": true
@@ -104,9 +104,9 @@
 		},
 		{
 			"group": "(3) 起始位置与特工接应处 Starting Locations & Agency Pickups",
-			"name": "默认版本",
+			"name": "修改版本",
 			"image": "framework content/Starting_Loadout_2.png",
-			"tooltip": "优化《杀手：暗杀世界》里的起始位置及特工接应处图片。",
+			"tooltip": "修改《杀手：暗杀世界》里的起始位置及特工接应处图片。",
 			"type": "select",
 			"blobsFolders": ["mod content/Starting_Loadout/blobs"],
 			"enabledByDefault": true
@@ -120,25 +120,34 @@
 		},
 		{
 			"group": "(4) 契约、升级契约及 ETA 街机契约 Contracts, Escalations & ETAs",
-			"name": "默认版本",
+			"name": "修改版本",
 			"image": "framework content/Game_Modes_2.png",
-			"tooltip": "优化《杀手：暗杀世界》里的契约、升级契约及 ETA 街机契约图片。",
+			"tooltip": "修改《杀手：暗杀世界》里的契约、升级契约及 ETA 街机契约图片。",
 			"type": "select",
 			"blobsFolders": ["mod content/Contracts_And_Escalations/blobs"],
 			"enabledByDefault": true
 		},
 		{
-			"group": "(5) 介面优化 Font Improvements",
+			"group": "(4) 契约、升级契约及 ETA 街机契约 Contracts, Escalations & ETAs",
+			"name": "修改版本",
+			"image": "framework content/Game_Modes_2.png",
+			"tooltip": "修改《杀手：暗杀世界》里的契约、升级契约及 ETA 街机契约图片。",
+			"type": "select",
+			"blobsFolders": ["mod content/Contracts_And_Escalations/blobs"],
+			"enabledByDefault": true
+		},
+		{
+			"group": "(5) 介面修改 Font Improvements",
 			"name": "默认版本",
 			"image": "framework content/Font_Improvements_1.png",
 			"tooltip": "不作任何更改，显示《杀手：暗杀世界》里的原版字体。",
 			"type": "select"
 		},
 		{
-			"group": "(5) 介面优化 Font Improvements",
-			"name": "优化版本",
+			"group": "(5) 介面修改 Font Improvements",
+			"name": "修改版本",
 			"image": "framework content/Font_Improvements_2.png",
-			"tooltip": "优化《杀手：暗杀世界》里的简体中文字体，将其改为更加美观的粗版字体。",
+			"tooltip": "修改《杀手：暗杀世界》里的简体中文字体，将其改为更加美观的粗版字体。",
 			"type": "select",
 			"contentFolders": ["mod content/Font_Improvements"],
 			"enabledByDefault": true
