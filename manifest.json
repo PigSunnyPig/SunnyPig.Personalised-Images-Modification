@@ -1,7 +1,7 @@
 {
 	"version": "1.0.0",		
 	"id": "SunnyPig.PersonalisedImagesModification",
-	"name": "个人化图片修改 Personalised Images Modification (1.0.0)",
+	"name": "个人化图片修改 Personalised Images Modification (1.0.0 alpha)",
 	"updateCheck": "https://raw.githubusercontent.com/PigSunnyPig/SunnyPig.github.ioi/main/updater.json",
 	"description": "修改《杀手：暗杀世界》的各类图片，包括挑战、武器、起始位置、故事及契约模式…… 请点击下方的「齿轮」图标，以查看详细说明。",
 	"authors": ["SunnyPigPig, Echo & Element120"],
@@ -133,7 +133,7 @@
 			"group": "(5) 介面修改 Font Improvements",
 			"name": "修改版本 (英文)",
 			"image": "framework content/Font_Improvements_3.png",
-			"tooltip": "修改《杀手：暗杀世界》里的英文字体，去除所有大写字母。",
+			"tooltip": "修改《杀手：暗杀世界》里的英文字体，放大并去除所有大写字母。",
 			"type": "select",
 			"contentFolders": ["mod content/Font_Improvements/Removes_CAPS_English"],
 			"enabledByDefault": true
