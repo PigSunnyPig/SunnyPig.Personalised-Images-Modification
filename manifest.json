@@ -3,13 +3,30 @@
 	"id": "SunnyPig.PersonalisedImagesModification",
 	"name": "个人化图片修改 Personalised Images Modification (1.0.0 alpha)",
 	"updateCheck": "https://raw.githubusercontent.com/PigSunnyPig/SunnyPig.github.ioi/main/updater.json",
-	"description": "修改《杀手：暗杀世界》的各类图片，包括挑战、武器、起始位置、故事及契约模式…… 请点击下方的「齿轮」图标，以查看详细说明。",
-	"authors": ["SunnyPigPig, Echo & Element120"],
+	"description": "修改《杀手：暗杀世界》的各类图片，包括挑战、武器、起始位置、故事及契约模式…… 请点击右侧的「齿轮」图标，以查看详细说明。",
+	"authors": ["SunnyPigPig, Echo, Hei_xi & Element120"],
 	"frameworkVersion": "2.0.0",
 	"thumbs": ["ConsoleCmd OnlineResources_Disable 1"],
 	"loadBefore": 
 	[
-		"SunnyPig.BetterLocalisation"
+		"SunnyPig.BetterLocalisation",
+		"SunnyPig.ICAMicroDevicesBoosted",
+		"Josery_Ripper.GenshinImpactTrinity",
+		"Josery_Ripper.miHoYoTrinity",
+		"Josery_Ripper.Furina",
+		"Josery_Ripper.bronya",
+		"Josery_Ripper.ydj",
+		"Josery_Ripper.zip",
+		"Jojje.SanguineSuit",
+		"Lv.KumaCasual",
+		"mext.XXI-21",
+		"mext.XXI-22",
+		"mext.Michael",
+		"mext.Sadie_Adler",
+		"mext.Spider_Gwen",
+		"mext.Ashley_Graham",
+		"mext.Harleen_Quinn",
+		"mext.Assassins_Creed_Syndicate_Evie_Frye"
 	],
 	"loadAfter": 
 	[
@@ -25,32 +42,28 @@
 			"image": "framework content/Customized_Challenges_1.png",
 			"tooltip": "如图所示，修改《杀手：暗杀世界》里的「经典挑战」图片。",
 			"type": "checkbox",
-			"blobsFolders": ["mod content/Challenges/Classics/blobs"],
-			"enabledByDefault": true
+			"blobsFolders": ["mod content/Challenges/Classics/blobs"]
 		},
 		{
 			"name": "(1) 挑战图片 -- 修改「全能」挑战",
 			"image": "framework content/Customized_Challenges_2.png",
 			"tooltip": "如图所示，修改《杀手：暗杀世界》里的「全能挑战」图片。",
 			"type": "checkbox",
-			"blobsFolders": ["mod content/Challenges/Generic_Location/blobs"],
-			"enabledByDefault": true
+			"blobsFolders": ["mod content/Challenges/Generic_Location/blobs"]
 		},
 		{
 			"name": "(1) 挑战图片 -- 修改「契约」挑战",
 			"image": "framework content/Customized_Challenges_3.png",
 			"tooltip": "如图所示。",
 			"type": "checkbox",
-			"blobsFolders": ["mod content/Challenges/Contracts_And_Escalations/blobs"],
-			"enabledByDefault": true
+			"blobsFolders": ["mod content/Challenges/Contracts_And_Escalations/blobs"]
 		},
 		{
 			"name": "(1) 挑战图片 -- 修改「行踪不定的目标」挑战",
 			"image": "framework content/Customized_Challenges_4.png",
 			"tooltip": "如图所示。",
 			"type": "checkbox",
-			"blobsFolders": ["mod content/Challenges/Elusive_Targets/blobs"],
-			"enabledByDefault": true
+			"blobsFolders": ["mod content/Challenges/Elusive_Targets/blobs"]
 		},
 		{
 			"name": "-----------------------------------------------------------------------------",
@@ -62,8 +75,7 @@
 			"image": "framework content/Items_And_Weapons_1.png",
 			"tooltip": "重制 ICA19 银色舞者的图片，使其能媲美 ICA19 金色舞者。",
 			"type": "checkbox",
-			"contentFolders": ["mod content/Items_And_Weapons/Silverballer"],
-			"enabledByDefault": true
+			"contentFolders": ["mod content/Items_And_Weapons/Silverballer"]
 		},
 		{
 			"name": "(2) 武器图片 -- 修改「ICA19 金色舞者」",
@@ -71,8 +83,7 @@
 			"tooltip": "修改「自由职业者」中 ICA19 金色舞者的图片，让其重回颜值巅峰。",
 			"type": "checkbox",
 			"blobsFolders": ["mod content/Items_And_Weapons/Goldballer/blobs"],
-			"contentFolders": ["mod content/Items_And_Weapons/Goldballer/Texture"],
-			"enabledByDefault": true
+			"contentFolders": ["mod content/Items_And_Weapons/Goldballer/Texture"]
 		},
 		{
 			"group": "(3) 起始位置与特工接应处 Starting Locations & Agency Pickups",
@@ -87,8 +98,7 @@
 			"image": "framework content/Starting_Loadout_2.png",
 			"tooltip": "修改《杀手：暗杀世界》里的两处「起始位置」图片，使其更贴合背景。",
 			"type": "select",
-			"blobsFolders": ["mod content/Starting_Loadout/blobs"],
-			"enabledByDefault": true
+			"blobsFolders": ["mod content/Starting_Loadout/blobs"]
 		},
 		{
 			"group": "(4) 目标图片 Targets' Images",
@@ -111,8 +121,7 @@
 			"image": "framework content/Targets_Images_3.png",
 			"tooltip": "修改《杀手：暗杀世界》里的部分「目标」图片，将契约模式的部分标志性人物的图片，更改为主要目标的样式。",
 			"type": "select",
-			"blobsFolders": ["mod content/Targets_Images/Story_Mode_Styles_Images/blobs"],
-			"enabledByDefault": true
+			"blobsFolders": ["mod content/Targets_Images/Story_Mode_Styles_Images/blobs"]
 		},
 		{
 			"group": "(5) 介面修改 Font Improvements",
@@ -123,20 +132,19 @@
 		},
 		{
 			"group": "(5) 介面修改 Font Improvements",
-			"name": "修改版本 (中文)",
+			"name": "修改版本 (中文+英文)",
 			"image": "framework content/Font_Improvements_2.png",
-			"tooltip": "修改《杀手：暗杀世界》里的简体中文字体，将其改为更加美观的粗体字体。",
+			"tooltip": "修改《杀手：暗杀世界》里的字体，放大并去除所有大写字母。",
 			"type": "select",
-			"contentFolders": ["mod content/Font_Improvements/Bold_Chinese"]
+			"contentFolders": ["mod content/Font_Improvements/Removes_CAPS"]
 		},
 		{
 			"group": "(5) 介面修改 Font Improvements",
-			"name": "修改版本 (英文)",
+			"name": "修改版本 (简体中文)",
 			"image": "framework content/Font_Improvements_3.png",
-			"tooltip": "修改《杀手：暗杀世界》里的英文字体，放大并去除所有大写字母。",
+			"tooltip": "修改《杀手：暗杀世界》里的简体中文字体，将其改为更加美观的粗体字体。",
 			"type": "select",
-			"contentFolders": ["mod content/Font_Improvements/Removes_CAPS_English"],
-			"enabledByDefault": true
+			"contentFolders": ["mod content/Font_Improvements/Bold_Chinese"]
 		}
 	]
 }
