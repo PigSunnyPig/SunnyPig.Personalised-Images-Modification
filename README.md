@@ -3,7 +3,7 @@
 現時，本 MOD 已對《殺手：暗殺世界》多方面的圖片進行了潤飾，包括挑戰圖片、武器與道具圖片、起始位置圖片、目標圖片……
 
 安裝途徑 Installation：
-此 MOD 需透過 SMF 進行安裝，詳情請參閱「DOCS」欄目。
+此 MOD 需透過 SMF 進行安裝。
 
 
 靈感來源 Inspiration Comes From：
